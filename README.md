@@ -1,5 +1,19 @@
 # itech-maven-utility-project
 
+This repo contains two sample projects Utils & UtilityCenter.
+
+**Utils** project will create non executable JAR file using following command
+
+```sh
+> mvn clean install
+```
+**UtilityCenter** project will create an executable JAR using maven-shade-plugin
+
+```sh
+> mvn clean install
+> java -jar target/UtilityCenter-1.0.SNAPSHOT
+```
+
 ## Utils
 
 Creates a non executable **JAR** file. It contains the following dependencies
