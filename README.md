@@ -10,7 +10,7 @@ This repo contains two sample projects Utils & UtilityCenter.
 **UtilityCenter** project will create an executable JAR using maven-shade-plugin
 
 ```sh
-> mvn clean install
+> mvn clean package
 > java -jar target/UtilityCenter-1.0.SNAPSHOT
 ```
 
